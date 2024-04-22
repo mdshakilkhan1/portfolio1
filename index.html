@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <div class="container">
+        <div><h2>Create Your Personal Id Card</h2></div>
+
+
+            <div class="subcontainer">
+                <div class="card">
+                    <p>Name :  <br><input id="na" type="text" placeholder="Enter youe name......."></p>
+                    <p>School Name :  <br><input id="sc" type="text" placeholder="Enter youe school name..."></p>
+                    <p>Class :  <br><input id="cl" type="text" placeholder="Enter youe class......."></p>
+                    <p>Roll  : <br> <input id="ro" type="number" placeholder="Enter youe roll......."></p>
+                </div>
+                <div class="card">
+                    <p>Father Name :  <br><input id="fa" type="text" placeholder="Enter youe father name......."></p>
+                    <p>Date Of Birth :  <br><input id="da" type="date" placeholder="Enter youe date of birth..."></p>
+                    <p>Mobile Number :  <br><input id="mo" type="number" placeholder="Enter youe mobile no......."></p>
+                    <legend>Gender :</legend>
+                    <p> male <input type="radio" name="Gender" id="male"> Female <input type="radio" name="Gender" id="female"></p>
+                </div>
+            </div>
+
+            <div id="btn">
+                <button onclick=" addbtn()">
+                    Create Id
+                </button>
+            </div>
+    </div>
+</div>
+
+
+<br><br><hr>
+
+<div class="box">
+    
+    <div class="minicontainer">
+        <div class="card1">
+            <div id="head">
+                <img id="img" src="./picture.png" alt="image">
+
+            </div>
+            <div id="sd">
+                <h2>Rajshahi Govt. City Collage</h2>
+                <p>Ph:02588-850388, E-mail:prin2388@yahoo.com</p>
+                <h1>ID CARD</h1>
+            </div>
+            <div id="bbb">
+                <p>Name : <span id="Name"></span></p>
+                <p>Father Name :   <span id="Father"></span></p>
+                <p>School : <span id="School"></span></p>
+                <p>Class : <span id="Class"></span></p>
+                <p>Roll : <span id="Roll"></span></p>
+                <p>Mobile No : <span id="Mobile"></span></p>
+                <p>Gender : <span id="Gen"></span></p>
+                <p>Dath Of Birth : <span id="Date"></span></p>
+            </div>
+            <br>
+            <div id="foot">
+                <div>
+                    <p>Head Of the Dept</p>
+                </div>
+                <div>
+                    <p>Principal</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

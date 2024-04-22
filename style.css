@@ -1,0 +1,66 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+.container{
+      background-color: skyblue;
+      border: 5px solid rgb(96, 86, 71);
+      border-radius: 10px;
+      width: 700px;
+      display: grid;
+      justify-content: center;
+      padding: 15px;
+}
+h2{
+    text-align: center;
+}
+#btn{
+    text-align: center;
+}
+button{
+    width: 250px;
+    text-align: center;
+}
+.subcontainer{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    padding: 10px;
+}
+.card1{
+    padding-top: 4px;
+    border-radius: 10px;
+    background-color: rgb(55, 121, 7);
+}
+#img{
+    width: 80px;
+    border-radius: 50%;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#sd{
+    text-align: center;
+    background-color: rgb(193, 242, 32);
+}
+#bbb{
+    margin: 10px;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 242, 32);
+}
+.minicontainer{
+    width: 350px;
+    background-color: rgb(193, 242, 32);
+    padding: 10px;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
